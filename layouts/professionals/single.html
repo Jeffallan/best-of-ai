@@ -15,6 +15,23 @@
   {{ $totalCount = add $totalCount (len (where $tools "Params.category" .)) }}
 {{ end }}
 
+{{ $allProfs := where .Site.RegularPages "Section" "professionals" }}
+{{ $scored   := slice }}
+{{ range $allProfs }}
+  {{ if ne .Params.slug $p.slug }}
+    {{ $shared := 0 }}
+    {{ $otherCats := .Params.categories }}
+    {{ range $cats }}
+      {{ if in $otherCats . }}{{ $shared = add $shared 1 }}{{ end }}
+    {{ end }}
+    {{ if gt $shared 0 }}
+      {{ $scored = $scored | append (dict "page" . "shared" $shared) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $scored  = sort $scored "shared" "desc" }}
+{{ $related := first 10 $scored }}
+
 <div class="home-layout">
 
   {{ partial "left-sidebar.html" . }}
@@ -119,7 +136,22 @@
     <p style="color:var(--fg-muted);padding:2rem 0">No tools found for this profession yet.</p>
     {{ end }}
 
-    <!-- Other professions -->
+    <!-- Related professions -->
+    {{ if $related }}
+    <section class="related-section">
+      <h2 class="related-title">// related professions
+        <a href="{{ "/professionals/" | relURL }}" class="related-title__more">see all →</a>
+      </h2>
+      <div class="other-cats-grid">
+        {{ range $related }}
+        <a href="{{ .page.RelPermalink }}" class="other-cat-card">
+          <span style="margin-right:0.35rem">{{ .page.Params.icon }}</span>
+          <span class="other-cat-card__name">{{ .page.Params.name }}</span>
+        </a>
+        {{ end }}
+      </div>
+    </section>
+    {{ else }}
     <section class="other-cats-section">
       <h2 class="other-cats__title">// other professions</h2>
       <div class="other-cats-grid">
@@ -133,6 +165,7 @@
         {{ end }}
       </div>
     </section>
+    {{ end }}
 
   </main>
 
