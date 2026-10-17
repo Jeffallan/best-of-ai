@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - claude-3
-  - gemini-pro
-  - ai21-labs
-  - hugging-face
-  - mistral
-  - deepseek
-  - llama-3
-  - cohere
+  - midjourney
+  - flux
+  - ideogram
+  - leonardo-ai
+  - adobe-firefly
+  - dalle
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, api_available, image_based, voice_enabled]
 ---

@@ -11,6 +11,11 @@ category_name: 'Nutrition'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - cronometer
+  - fooddocs
+  - nutrium
+  - myfitnesspal
 date: '2026-02-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

@@ -11,6 +11,12 @@ category_name: 'Nonprofit'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - givebutter
+  - bonterra
+  - bloomerang
+  - virtuous
+  - keela
 date: '2026-10-03'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

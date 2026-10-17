@@ -11,6 +11,13 @@ category_name: 'Business Tools'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - servicetitan
+  - jobber
+  - kajabi
+  - pandadoc-ai
+  - hubspot-business
+  - zoho
 date: '2026-02-01'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, free_tier]
 ---

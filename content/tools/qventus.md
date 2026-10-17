@@ -11,6 +11,11 @@ category_name: 'Healthcare'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - leantaas
+  - pulsara
+  - medidata
+  - hippocratic-ai
 date: '2026-10-03'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine]
 ---

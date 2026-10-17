@@ -11,6 +11,14 @@ category_name: 'HR'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - deel
+  - gusto
+  - hiredscore
+  - bamboohr
+  - workday
+  - lattice-ai
+  - eightfold-ai
 date: '2026-10-03'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, analytics]
 ---

@@ -11,6 +11,12 @@ category_name: 'HR'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - eightfold-ai
+  - hirevue
+  - greenhouse
+  - visier
+  - workday
 date: '2026-10-03'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, collaboration, fast]
 ---

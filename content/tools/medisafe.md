@@ -11,6 +11,10 @@ category_name: 'Healthcare'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - k-health
+  - wysa
+  - woebot
 date: '2026-10-03'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine]
 ---

@@ -18,7 +18,6 @@ alternatives:
   - grok
   - chatgpt
   - perplexity
-  - gemini-advanced
   - kimi
   - mistral-le-chat
 date: '2025-01-01'

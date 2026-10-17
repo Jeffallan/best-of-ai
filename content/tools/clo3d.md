@@ -11,6 +11,11 @@ category_name: 'Fashion'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - heuritech
+  - stitch-fix
+  - vue-ai
+  - fashwell
 date: '2026-02-01'
 tags: [fashion, design, style, clothing, retail, styling, outfit, trend, wardrobe]
 ---

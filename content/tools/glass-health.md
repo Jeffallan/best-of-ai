@@ -11,6 +11,12 @@ category_name: 'Healthcare'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - suki-ai
+  - nuance-dax
+  - k-health
+  - hippocratic-ai
+  - tempus-ai
 date: '2026-10-03'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, fast]
 ---

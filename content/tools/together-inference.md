@@ -13,14 +13,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - claude-3
-  - deepseek
-  - gemini-pro
-  - ai21-labs
+  - sambanova
+  - modal-ai
+  - runpod-ai
   - hugging-face
-  - llama-3
-  - cohere
-  - gemma
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, api_available, cloud_based, model_based]
 ---

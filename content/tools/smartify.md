@@ -11,6 +11,11 @@ category_name: 'Computer Vision'
 price: 'Free'
 featured: false
 rank: 5
+alternatives:
+  - inaturalist
+  - landing-ai
+  - clarifai
+  - datarock
 date: '2026-10-03'
 tags: [free_tier, voice_enabled, fast, ai_powered, intelligent, platform, tool, service]
 ---

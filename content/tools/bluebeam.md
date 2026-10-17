@@ -11,6 +11,13 @@ category_name: 'Construction'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - procore
+  - buildertrend
+  - autodesk-construction
+  - buildxact
+  - aquant
+  - faro
 date: '2026-10-03'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

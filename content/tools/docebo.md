@@ -11,6 +11,12 @@ category_name: 'Learning Tools'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - articulate-360
+  - khanmigo
+  - udemy
+  - quizlet-ai
+  - synthesis
 date: '2026-02-01'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning]
 ---

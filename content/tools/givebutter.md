@@ -11,6 +11,12 @@ category_name: 'Nonprofit'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - instrumentl
+  - bonterra
+  - bloomerang
+  - virtuous
+  - keela
 date: '2026-02-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

@@ -18,7 +18,6 @@ alternatives:
   - grok
   - microsoft-copilot
   - perplexity
-  - gemini-advanced
   - kimi
 date: '2025-09-21'
 tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, open_source, secure, image_based]

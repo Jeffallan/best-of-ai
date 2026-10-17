@@ -11,6 +11,10 @@ category_name: 'Cybersecurity'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - tracers
+  - darktrace
+  - wiz
 date: '2026-02-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

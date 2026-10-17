@@ -13,11 +13,7 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - claude-3
-  - llama-3
   - cohere
-  - gemma
-  - microsoft-phi
   - deepseek
   - gemini-pro
   - ai21-labs

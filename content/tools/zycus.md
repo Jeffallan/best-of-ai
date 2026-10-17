@@ -11,6 +11,11 @@ category_name: 'Supply Chain'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - sap-ariba
+  - oracle-scm
+  - kinaxis
+  - blue-yonder
 date: '2026-10-03'
 tags: [supply_chain, logistics, business, inventory, management, procurement, distribution, forecasting, operations]
 ---

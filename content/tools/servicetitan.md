@@ -11,6 +11,11 @@ category_name: 'Business Tools'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - jobber
+  - bonsai
+  - styleseat
+  - kajabi
 date: '2025-11-02'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow]
 ---

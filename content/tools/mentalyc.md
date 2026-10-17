@@ -11,6 +11,12 @@ category_name: 'Mental Health'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - upheal
+  - jane-app
+  - glass-health
+  - wysa
+  - woebot
 date: '2026-10-03'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

@@ -11,6 +11,10 @@ category_name: 'Graphic Design'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - canva
+  - figma
+  - adobe-express
 date: '2026-10-03'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, mobile_app]
 ---

@@ -14,12 +14,8 @@ featured: false
 rank: 5
 alternatives:
   - deepseek
-  - claude-3
-  - gemma
-  - microsoft-phi
   - hugging-face
   - gemini-pro
-  - llama-3
   - ai21-labs
 date: '2025-06-15'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, nlp, model_based, community_driven]

@@ -11,6 +11,11 @@ category_name: 'FinTech'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - feedzai
+  - zest-ai
+  - shift-technology
+  - plaid
 date: '2026-02-01'
 tags: [collaboration, machine_learning, model_based, ai_powered, intelligent, platform, tool, service]
 ---

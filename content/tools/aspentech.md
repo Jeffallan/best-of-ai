@@ -11,6 +11,11 @@ category_name: 'Manufacturing'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - cognite
+  - augury
+  - sight-machine
+  - tulip
 date: '2026-10-03'
 tags: [collaboration, model_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

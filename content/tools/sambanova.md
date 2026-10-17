@@ -12,14 +12,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - deepseek
-  - llama-3
-  - cohere
-  - openai-o3
-  - ai21-labs
-  - claude-3
-  - gemini-pro
-  - gemma
+  - together-inference
+  - coreweave-ai
+  - lambda-labs
+  - modal-ai
 date: '2026-06-15'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, api_available, enterprise, free_tier]
 ---

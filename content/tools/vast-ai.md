@@ -13,14 +13,11 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - deepseek
-  - hugging-face
-  - mistral
-  - microsoft-phi
-  - openai-o3
-  - claude-3
-  - gemini-pro
-  - llama-3
+  - runpod-ai
+  - lambda-labs
+  - coreweave-ai
+  - paperspace-ai
+  - modal-ai
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, training, model_based]
 ---

@@ -11,6 +11,11 @@ category_name: 'Energy'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - autogrid
+  - uplight
+  - cognite
+  - stem-ai
 date: '2025-11-02'
 tags: [analytics, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

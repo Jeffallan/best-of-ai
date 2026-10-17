@@ -11,6 +11,11 @@ category_name: 'Job Tools'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - teal
+  - jobgpt-ai
+  - huntr
+  - jobbyo
 date: '2026-10-03'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring, collaboration]
 ---

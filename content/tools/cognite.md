@@ -11,6 +11,11 @@ category_name: 'Energy'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - aspentech
+  - autogrid
+  - energycap
+  - augury
 date: '2026-10-03'
 tags: [model_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

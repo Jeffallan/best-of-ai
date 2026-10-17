@@ -11,6 +11,11 @@ category_name: 'Real Estate'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - spectora
+  - appfolio
+  - matterport
+  - photoroom
 date: '2026-10-03'
 tags: [real_estate, business, property, housing, investment, listings, mortgage, valuation, market_data, powerful]
 ---

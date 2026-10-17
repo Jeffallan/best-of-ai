@@ -13,14 +13,10 @@ price: 'Paid'
 featured: false
 rank: 9
 alternatives:
-  - deepseek-vision
   - landing-ai
   - clarifai
   - hive-moderation
-  - maxar
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - datarock
 date: '2025-10-01'
 tags: [api_available, cloud_based, image_based, training, model_based, easy_to_use, ai_powered, intelligent]
 ---

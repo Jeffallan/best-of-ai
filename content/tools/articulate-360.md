@@ -11,6 +11,12 @@ category_name: 'Learning Tools'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - docebo
+  - khanmigo
+  - udemy
+  - quizlet-ai
+  - synthesis
 date: '2025-11-02'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning]
 ---

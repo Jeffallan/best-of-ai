@@ -11,6 +11,13 @@ category_name: 'Fashion'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - vue-ai
+  - fashwell
+  - stitch-fix
+  - clo3d
+  - outfit-fm
+  - theyes
 date: '2026-10-03'
 tags: [fashion, design, style, clothing, retail, styling, outfit, trend, wardrobe, image_based]
 ---

@@ -15,12 +15,8 @@ rank: 9
 alternatives:
   - aws-rekognition
   - landing-ai
-  - deepseek-vision
-  - appen
   - labelbox
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - appen
 date: '2025-10-01'
 tags: [collaboration, customizable, machine_learning, nlp, image_based, voice_enabled, training, model_based]
 ---

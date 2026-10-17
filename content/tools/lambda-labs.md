@@ -13,14 +13,11 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - deepseek
-  - cohere
-  - claude-3
-  - gemini-pro
-  - llama-3
-  - ai21-labs
-  - gemma
-  - gpt-4
+  - coreweave-ai
+  - runpod-ai
+  - vast-ai
+  - paperspace-ai
+  - modal-ai
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, collaboration, cloud_based, training]
 ---

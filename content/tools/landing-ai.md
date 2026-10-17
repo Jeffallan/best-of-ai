@@ -14,13 +14,8 @@ featured: false
 rank: 7
 alternatives:
   - aws-rekognition
-  - deepseek-vision
   - clarifai
-  - intrinsic
-  - zebra-medical
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - datarock
 date: '2025-10-01'
 tags: [machine_learning, image_based, training, model_based, ai_powered, intelligent, platform, tool]
 ---

@@ -11,6 +11,13 @@ category_name: 'Legal Assistants'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - docketwise
+  - relativity
+  - everlaw
+  - spellbook
+  - robin-ai
+  - harvey
 date: '2026-10-03'
 tags: [legal, document_ai, business, contracts, compliance, law, legal_research, due_diligence, drafting, fast]
 ---

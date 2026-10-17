@@ -11,6 +11,10 @@ category_name: 'Document AI'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - appfolio
+  - boxbrownie
+  - matterport
 date: '2026-10-03'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, voice_enabled]
 ---

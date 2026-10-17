@@ -11,6 +11,10 @@ category_name: 'Food'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - esha-genesis
+  - vivino
+  - yuka
 date: '2026-02-01'
 tags: [food, lifestyle, cooking, recipes, nutrition, meal_planning, ingredients, diet, culinary, collaboration]
 ---

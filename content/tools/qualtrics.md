@@ -11,6 +11,12 @@ category_name: 'Market Research'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - meltwater
+  - brandwatch
+  - hotjar-ai
+  - similarweb
+  - talkwalker
 date: '2026-02-01'
 tags: [market_research, business, analytics, consumer, insights, surveys, competitive_analysis, trends, intelligence, collaboration, customizable]
 ---

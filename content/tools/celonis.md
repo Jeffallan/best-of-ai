@@ -11,6 +11,13 @@ category_name: 'Automation'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - jitx
+  - zapier
+  - n8n
+  - make
+  - power-automate
+  - pipedream
 date: '2026-10-03'
 tags: [automation, workflow, productivity, repetitive_tasks, efficiency, process_automation, triggers, scheduling, bots]
 ---

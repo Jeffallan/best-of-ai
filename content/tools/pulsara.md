@@ -11,6 +11,11 @@ category_name: 'Healthcare'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - eso-solutions
+  - everbridge
+  - qventus
+  - leantaas
 date: '2025-11-02'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, fast]
 ---

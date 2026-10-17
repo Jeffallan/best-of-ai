@@ -11,6 +11,11 @@ category_name: 'Image Editing'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - crisalix
+  - photoroom
+  - picsart-ai
+  - pixlr
 date: '2026-10-03'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation]
 ---

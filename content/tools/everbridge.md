@@ -11,6 +11,10 @@ category_name: 'Healthcare'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - pulsara
+  - eso-solutions
+  - qventus
 date: '2025-11-02'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine]
 ---
