@@ -12,10 +12,10 @@ install: 'Install as a plugin following the steps in the repo''s INSTALL.md; the
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 27522
-stars_this_week: 282
-stars_updated: '2026-09-07'
-rank: 8
-date: '2026-09-07'
+stars: 57763
+stars_this_week: 5040
+stars_updated: '2026-10-19'
+rank: 9
+date: '2026-10-19'
 tags: [productivity, output-style]
 ---

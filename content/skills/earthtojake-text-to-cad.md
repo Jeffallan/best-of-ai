@@ -12,11 +12,11 @@ install: 'Install via the Skills CLI (npx skills add earthtojake/text-to-cad) or
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 14538
-stars_this_week: 75
-stars_updated: '2026-09-07'
-rank: 7
-date: '2026-09-07'
+stars: 21556
+stars_this_week: 1170
+stars_updated: '2026-10-19'
+rank: 8
+date: '2026-10-19'
 tags: [cad, robotics, engineering]
 ---
 This repository bundles the following skills:

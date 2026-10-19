@@ -12,11 +12,11 @@ install: 'Reference the relevant skill from CLAUDE.md, or copy it into a Claude 
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 5844
-stars_this_week: 27
-stars_updated: '2026-09-07'
+stars: 6833
+stars_this_week: 165
+stars_updated: '2026-10-19'
 rank: 6
-date: '2026-09-07'
+date: '2026-10-19'
 tags: [design, games, web]
 ---
 This repository bundles the following skills:

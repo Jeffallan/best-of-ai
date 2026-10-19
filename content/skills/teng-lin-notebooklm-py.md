@@ -12,10 +12,10 @@ install: 'Install the CLI with uv tool install "notebooklm-py[browser]", then in
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 19188
-stars_this_week: 18
-stars_updated: '2026-09-07'
+stars: 19798
+stars_this_week: 102
+stars_updated: '2026-10-19'
 rank: 7
-date: '2026-09-07'
+date: '2026-10-19'
 tags: [notebooklm, google, development]
 ---

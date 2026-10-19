@@ -12,11 +12,11 @@ install: 'Clone the repository, then run the platform-specific tool-indexing scr
 price: 'Free'
 open_source: true
 license: 'MIT (core project); GPLv3 (CTF sandbox component)'
-stars: 34914
-stars_this_week: 198
-stars_updated: '2026-09-07'
+stars: 42615
+stars_this_week: 1284
+stars_updated: '2026-10-19'
 rank: 8
-date: '2026-09-07'
+date: '2026-10-19'
 tags: [security-research, reverse-engineering, authorized-pentesting]
 ---
 This repository bundles the following skills:

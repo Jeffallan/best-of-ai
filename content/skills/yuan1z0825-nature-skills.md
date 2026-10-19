@@ -12,11 +12,11 @@ install: 'Install all skills with npx skills add Yuan1z0825/nature-skills --glob
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 39769
-stars_this_week: 319
-stars_updated: '2026-09-07'
+stars: 49251
+stars_this_week: 1580
+stars_updated: '2026-10-19'
 rank: 8
-date: '2026-09-07'
+date: '2026-10-19'
 tags: [academic, writing, research]
 ---
 This repository bundles the following skills:

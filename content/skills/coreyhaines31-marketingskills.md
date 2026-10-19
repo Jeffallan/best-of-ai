@@ -12,11 +12,11 @@ install: 'Install with npx skills add coreyhaines31/marketingskills, through the
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 47773
-stars_this_week: 591
-stars_updated: '2026-09-07'
-rank: 8
-date: '2026-09-07'
+stars: 55440
+stars_this_week: 1278
+stars_updated: '2026-10-19'
+rank: 9
+date: '2026-10-19'
 tags: [marketing, growth, seo]
 ---
 This repository bundles the following skills:
