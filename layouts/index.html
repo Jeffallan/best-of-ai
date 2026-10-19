@@ -86,6 +86,26 @@
     </section>
     {{ end }}
 
+    <!-- ── Trending Skills ── -->
+    {{ $allSkills := where .Site.RegularPages "Section" "skills" }}
+    {{ $trendingSkills := first 3 (sort $allSkills "Params.stars_this_week" "desc") }}
+    {{ if $trendingSkills }}
+    <section class="tool-section home-skills" id="trending-skills" data-cat="trending-skills">
+      <h2 class="tool-section__title">
+        <a href="{{ "/skills/" | relURL }}" class="tool-section__title-link">Trending Skills</a>
+        <a href="{{ "/skills/" | relURL }}" class="tool-section__more-link">
+          View all {{ partial "count.html" (len $allSkills) }}
+          <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </h2>
+      <div class="skill-list">
+        {{ range $i, $s := $trendingSkills }}
+          {{ partial "skill-row.html" (dict "page" $s "p" $s.Params "n" (add $i 1)) }}
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
     <!-- ── New AI Models ── -->
     {{ $allModels := where .Site.RegularPages "Section" "models" }}
     {{ $newModels := first 6 (sort $allModels "Params.release_date" "desc") }}
