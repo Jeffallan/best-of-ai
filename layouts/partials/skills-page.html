@@ -43,11 +43,22 @@
       </div>
     </div>
 
-    <div class="price-bar" id="skills-price-bar" style="margin-bottom:1.5rem">
-      <span class="price-bar__label">// price</span>
-      <button class="pf active" data-price="all">all</button>
-      <button class="pf" data-price="Free">free</button>
-      <button class="pf" data-price="Paid">paid</button>
+    <div class="skills-toolbar">
+      <label class="skills-search">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input type="search" id="skills-q" placeholder="Filter skills by name, author or topic…" autocomplete="off">
+      </label>
+      <div class="price-bar" id="skills-price-bar">
+        <span class="price-bar__label">// price</span>
+        <button class="pf active" data-price="all">all</button>
+        <button class="pf" data-price="Free">free</button>
+        <button class="pf" data-price="Paid">paid</button>
+      </div>
+      <div class="price-bar" id="skills-sort-bar">
+        <span class="price-bar__label">// sort</span>
+        <button class="pf active" data-sort="stars">top stars</button>
+        <button class="pf" data-sort="week">trending</button>
+      </div>
     </div>
 
     <div class="prof-cat-tabs" id="skills-type-tabs">
@@ -60,6 +71,8 @@
         {{ end }}
       {{ end }}
     </div>
+
+    <p class="skills-empty" id="skills-empty" hidden>No skills match your filter.</p>
 
     {{ if $tableSkills }}
     <div class="skill-list" id="skills-grid">
@@ -79,18 +92,38 @@
 
 <script>
 (function() {
-  var btns  = document.querySelectorAll('#skills-price-bar .pf');
-  var cards = document.querySelectorAll('#skills-grid .skill-row');
-  btns.forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      var price = btn.dataset.price;
-      btns.forEach(function(b) { b.classList.remove('active'); });
-      btn.classList.add('active');
-      cards.forEach(function(card) {
-        card.style.display = (price === 'all' || card.dataset.price === price) ? '' : 'none';
+  var list  = document.getElementById('skills-grid');
+  if (!list) return;
+  var rows  = Array.prototype.slice.call(list.querySelectorAll('.skill-row'));
+  var q = document.getElementById('skills-q');
+  var empty = document.getElementById('skills-empty');
+  var state = { price: 'all', sort: 'stars', q: '' };
+  function apply() {
+    var key = state.sort === 'week' ? 'week' : 'stars';
+    rows.sort(function(a, b) { return (+b.dataset[key]) - (+a.dataset[key]); });
+    var shown = 0;
+    rows.forEach(function(r) {
+      list.appendChild(r);
+      var ok = (state.price === 'all' || r.dataset.price === state.price) && (!state.q || r.dataset.search.indexOf(state.q) !== -1);
+      r.style.display = ok ? '' : 'none';
+      if (ok) { shown++; r.querySelector('.skill-row__rank').textContent = shown; }
+    });
+    empty.hidden = shown !== 0;
+  }
+  function bind(sel, attr) {
+    var btns = document.querySelectorAll(sel + ' .pf');
+    btns.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        btns.forEach(function(b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        state[attr] = btn.dataset[attr];
+        apply();
       });
     });
-  });
+  }
+  bind('#skills-price-bar', 'price');
+  bind('#skills-sort-bar', 'sort');
+  q.addEventListener('input', function() { state.q = q.value.trim().toLowerCase(); apply(); });
 })();
 </script>
 
