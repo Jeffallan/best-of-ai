@@ -62,9 +62,9 @@
     </div>
 
     {{ if $tableSkills }}
-    <div class="tools-grid" id="skills-grid">
-      {{ range $tableSkills }}
-      {{ partial "skill-card.html" (dict "page" . "p" .Params) }}
+    <div class="skill-list" id="skills-grid">
+      {{ range $i, $s := $tableSkills }}
+      {{ partial "skill-row.html" (dict "page" $s "p" $s.Params "n" (add $i 1)) }}
       {{ end }}
     </div>
     {{ else }}
@@ -80,7 +80,7 @@
 <script>
 (function() {
   var btns  = document.querySelectorAll('#skills-price-bar .pf');
-  var cards = document.querySelectorAll('#skills-grid .tool-card');
+  var cards = document.querySelectorAll('#skills-grid .skill-row');
   btns.forEach(function(btn) {
     btn.addEventListener('click', function() {
       var price = btn.dataset.price;
