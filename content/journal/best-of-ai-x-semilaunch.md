@@ -29,6 +29,8 @@ If you build an AI tool, here's the path to a listing on Best of AI:
 
 You don't need to fill out a separate submission form, and we don't charge anything for the listing. SemiLaunch's regular launch pricing still applies, though.
 
+You can still use our [submit form](/submit/) or send a PR on [GitHub](https://github.com/best-of-ai/best-of-ai) if you'd rather go that way. Tools that come through SemiLaunch get higher priority, though.
+
 ## What we hope happens
 
 More exposure for makers is the obvious win. The part we like more is that real users get a say. If enough people back a tool, we'd like to know about it, and we'd like to list it.
